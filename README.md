@@ -39,7 +39,8 @@ This installation assumes you are running the latest version of Vera software.
 3. Upload the .xml and .json file in the repository to the appropriate storage location on your controller. For Vera that's via Apps/Develop Apps/Luup files/
 4. Create the decice instance via the appropriate route. For Vera that's Apps/Develop Apps/Create Device/ and putting "D_FootballSwitch.xml" into the Upnp Device Filename box. 
 5. Reload luup to establish the device and then update the calenderuri variable with a link to your teams ical location. e.g https://ics.fixtur.es/v2/ipswich-town.ics
-6. Reload luup again and you should be good to go..
+6. If you don't want your teams name to appear in the UI, then add it to the "My Team" variable and it will be removed, which makes it look better.
+7. Reload luup again and you should be good to go.
 
 # Limitations
 
