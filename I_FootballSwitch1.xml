@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<implementation>
+	<functions>
+		function initializeFootballSwitchPlugin(lul_device)
+			luup.log("FSP: Football Switch Plugin STARTING-UP!")
+			FootballSwitch = require("L_FootballSwitch1")
+			FSPolling = FootballSwitch.FootballSwitchPoller
+			return FootballSwitch.FootballSwitchStartup(lul_device)
+		end
+	</functions>
+	<startup>initializeFootballSwitchPlugin</startup>
+	<actionList>
+		<action>
+		</action>
+	</actionList>
+</implementation>

@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<root xmlns="urn:schemas-upnp-org:device-1-0">
+  <specVersion>
+    <major>1</major>
+    <minor>0</minor>
+  </specVersion>
+  <device>
+    <deviceType>urn:schemas-nodecentral-net:device:FootballSwitch:1</deviceType>
+	<friendlyName>Football Switch</friendlyName>
+    <Category_Num>77</Category_Num>
+    <SubCategory_Num>0</SubCategory_Num>
+    <staticJson>D_FootballSwitch1.json</staticJson>
+    <serviceList>
+      <service>
+        <serviceType>urn:schemas-nodecentral-net:service:FootballSwitch:1</serviceType>
+        <serviceId>urn:nodecentral-net:serviceId:FootballSwitch1</serviceId>
+        <SCPDURL>S_FootballSwitch1.xml</SCPDURL>
+      </service>
+	  <service>
+        <serviceType>urn:schemas-upnp-org:service:SwitchPower:1</serviceType>
+        <serviceId>urn:upnp-org:serviceId:SwitchPower1</serviceId>
+        <SCPDURL>S_SwitchPower1.xml</SCPDURL>
+	</service>
+    </serviceList>
+    <implementationList>
+	<implementationFile>I_FootballSwitch1.xml</implementationFile>
+    </implementationList>
+  </device>
+</root>
+
